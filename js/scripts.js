@@ -38,7 +38,7 @@ $(document).ready(function() {
     const anythingInput = $("input#anything").val();
 
     $(".anything").text(anythingInput.toUpperCase() + "!!!!!");
-
+    $("#reply").show();
   });
 
 });

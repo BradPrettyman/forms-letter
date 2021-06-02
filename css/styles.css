@@ -1,4 +1,4 @@
-#story {
+#story, #reply {
   display: none;
 }
 
@@ -27,4 +27,11 @@ form {
 .anything {
   font-family: 'Courier New', Courier, monospace;
   font-size: 30vh;
+  font-weight: bold;
+  font-style: italic;
+}
+
+img {
+  width: 30vw;
+  float: left;
 }
