@@ -35,3 +35,12 @@ img {
   width: 30vw;
   float: left;
 }
+
+/* for calc */
+#output {
+  margin: auto;
+  width: 30vw;
+  background-color: grey;
+  text-align: center;
+  font-size: 20vw;
+}
