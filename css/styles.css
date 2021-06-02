@@ -1,4 +1,4 @@
-#story, #reply {
+#story, #reply, #booking {
   display: none;
 }
 
@@ -43,4 +43,12 @@ img {
   background-color: grey;
   text-align: center;
   font-size: 20vw;
+}
+
+/* for appointment */
+.btn {
+  border: 3px dashed pink;
+  background-color: hotpink;
+  color: white;
+  border-radius: 20px;
 }
