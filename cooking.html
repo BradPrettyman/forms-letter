@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Cooking Conversions</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/cook-scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Cooking Conversions</h1>
+
+    <div class='row'>
+
+      <div class='col-sm-6'>
+        <form id="lToG">
+          <div class="form-group">
+            <label for="liters">Enter liters to convert to gallons:</label>
+            <input id="liters" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-warning">Get gallons!</button>
+        </form>
+
+        <div id="gallonsOutput">
+        </div>
+
+      </div>
+
+      <div class='col-sm-6'>
+        <form id="gToL">
+          <div class="form-group">
+            <label for="gallons">Enter gallons to convert to liters:</label>
+            <input id="gallons" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-info">Get liters!</button>
+        </form>
+
+        <div id="litersOutput">
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div id="output">
+
+    </div>
+  </div>
+</body>
+</html>
