@@ -48,4 +48,24 @@ $(document).ready(function() {
     const result = multiply(number1, number2);
     $("#output").text(result);
   });
+
+  // for calc pt 2
+  $("form#allOps").submit(function(event) {
+    event.preventDefault();
+    const operator = $("select#operator").val();
+    const number1 = parseInt($("#number1").val());
+    const number2 = parseInt($("#number2").val());
+    let result = '';
+
+    if (operator === 'add') {
+      result = add(number1, number2);
+    } else if (operator === 'subtract') {
+      result = subtract(number1, number2);
+    } else if (operator === 'multiply') {
+      result = multiply(number1, number2);
+    } else {
+      result = divide(number1, number2);
+    }
+    $(".all-result").text(result);
+  });
 });

@@ -37,7 +37,7 @@ img {
 }
 
 /* for calc */
-#output {
+#output, .all-result {
   margin: auto;
   width: 30vw;
   background-color: grey;
@@ -51,4 +51,10 @@ img {
   background-color: hotpink;
   color: white;
   border-radius: 20px;
+}
+
+/* for calc-2 */
+.allOperations {
+  width: 45vw;
+  margin: auto;
 }
