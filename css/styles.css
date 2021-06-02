@@ -1,0 +1,21 @@
+#story {
+  display: none;
+}
+
+#letter {
+  display: none;
+  width: 80%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2vw;
+  margin: auto;
+  padding: 10vh 5vw;
+  border: 1px solid black;
+}
+
+.name, .address, .date {
+  margin-bottom: 0px;
+}
+
+#dear {
+  margin-top: 1.5vh;
+}
