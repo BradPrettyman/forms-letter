@@ -32,6 +32,15 @@ $(document).ready(function() {
     $("#letter").show();
   });
 
+  // for shout.html
+  $("#shouting").submit(function(event) {
+    event.preventDefault();
+    const anythingInput = $("input#anything").val();
+
+    $(".anything").text(anythingInput.toUpperCase() + "!!!!!");
+
+  });
+
 });
 
 
